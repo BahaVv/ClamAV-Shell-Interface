@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ClamAV Scan
+Icon=boost-symbolic
+Comment=Update ClamAV Definitions and scan your system!
+Type=Application
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ~/.local/share/applications/ClamScan/ClamScan.sh"
+Terminal=true
+Categories=Utility
+
